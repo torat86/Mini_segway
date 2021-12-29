@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/tor/VSCodeProjects/Embedded/Mini_segway
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tor/VSCodeProjects/Embedded/Mini_segway/build
+CMAKE_BINARY_DIR = /home/tor/VSCodeProjects/Embedded/Mini_segway/build2
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Wire.dir/depend.make
@@ -59,7 +59,7 @@ include CMakeFiles/Wire.dir/flags.make
 
 CMakeFiles/Wire.dir/lib/Wire/Wire.cpp.o: CMakeFiles/Wire.dir/flags.make
 CMakeFiles/Wire.dir/lib/Wire/Wire.cpp.o: ../lib/Wire/Wire.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Wire.dir/lib/Wire/Wire.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Wire.dir/lib/Wire/Wire.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Wire.dir/lib/Wire/Wire.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/lib/Wire/Wire.cpp
 
 CMakeFiles/Wire.dir/lib/Wire/Wire.cpp.i: cmake_force
@@ -72,7 +72,7 @@ CMakeFiles/Wire.dir/lib/Wire/Wire.cpp.s: cmake_force
 
 CMakeFiles/Wire.dir/lib/Wire/WireIMXRT.cpp.o: CMakeFiles/Wire.dir/flags.make
 CMakeFiles/Wire.dir/lib/Wire/WireIMXRT.cpp.o: ../lib/Wire/WireIMXRT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Wire.dir/lib/Wire/WireIMXRT.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Wire.dir/lib/Wire/WireIMXRT.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Wire.dir/lib/Wire/WireIMXRT.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/lib/Wire/WireIMXRT.cpp
 
 CMakeFiles/Wire.dir/lib/Wire/WireIMXRT.cpp.i: cmake_force
@@ -85,7 +85,7 @@ CMakeFiles/Wire.dir/lib/Wire/WireIMXRT.cpp.s: cmake_force
 
 CMakeFiles/Wire.dir/lib/Wire/WireKinetis.cpp.o: CMakeFiles/Wire.dir/flags.make
 CMakeFiles/Wire.dir/lib/Wire/WireKinetis.cpp.o: ../lib/Wire/WireKinetis.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Wire.dir/lib/Wire/WireKinetis.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Wire.dir/lib/Wire/WireKinetis.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Wire.dir/lib/Wire/WireKinetis.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/lib/Wire/WireKinetis.cpp
 
 CMakeFiles/Wire.dir/lib/Wire/WireKinetis.cpp.i: cmake_force
@@ -110,7 +110,7 @@ libWire.a: CMakeFiles/Wire.dir/lib/Wire/WireIMXRT.cpp.o
 libWire.a: CMakeFiles/Wire.dir/lib/Wire/WireKinetis.cpp.o
 libWire.a: CMakeFiles/Wire.dir/build.make
 libWire.a: CMakeFiles/Wire.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libWire.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libWire.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Wire.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Wire.dir/link.txt --verbose=$(VERBOSE)
 
@@ -124,6 +124,6 @@ CMakeFiles/Wire.dir/clean:
 .PHONY : CMakeFiles/Wire.dir/clean
 
 CMakeFiles/Wire.dir/depend:
-	cd /home/tor/VSCodeProjects/Embedded/Mini_segway/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tor/VSCodeProjects/Embedded/Mini_segway /home/tor/VSCodeProjects/Embedded/Mini_segway /home/tor/VSCodeProjects/Embedded/Mini_segway/build /home/tor/VSCodeProjects/Embedded/Mini_segway/build /home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles/Wire.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tor/VSCodeProjects/Embedded/Mini_segway/build2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tor/VSCodeProjects/Embedded/Mini_segway /home/tor/VSCodeProjects/Embedded/Mini_segway /home/tor/VSCodeProjects/Embedded/Mini_segway/build2 /home/tor/VSCodeProjects/Embedded/Mini_segway/build2 /home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles/Wire.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Wire.dir/depend
 

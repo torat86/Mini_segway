@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tor/VSCodeProjects/Embedded/Mini_segway/lib/Wire/Wire.cpp" "/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles/Wire.dir/lib/Wire/Wire.cpp.o"
-  "/home/tor/VSCodeProjects/Embedded/Mini_segway/lib/Wire/WireIMXRT.cpp" "/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles/Wire.dir/lib/Wire/WireIMXRT.cpp.o"
-  "/home/tor/VSCodeProjects/Embedded/Mini_segway/lib/Wire/WireKinetis.cpp" "/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles/Wire.dir/lib/Wire/WireKinetis.cpp.o"
+  "/home/tor/VSCodeProjects/Embedded/Mini_segway/lib/Wire/Wire.cpp" "/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles/Wire.dir/lib/Wire/Wire.cpp.o"
+  "/home/tor/VSCodeProjects/Embedded/Mini_segway/lib/Wire/WireIMXRT.cpp" "/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles/Wire.dir/lib/Wire/WireIMXRT.cpp.o"
+  "/home/tor/VSCodeProjects/Embedded/Mini_segway/lib/Wire/WireKinetis.cpp" "/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles/Wire.dir/lib/Wire/WireKinetis.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

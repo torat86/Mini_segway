@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/tor/VSCodeProjects/Embedded/Mini_segway")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/tor/VSCodeProjects/Embedded/Mini_segway/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/tor/VSCodeProjects/Embedded/Mini_segway/build2")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

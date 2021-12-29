@@ -55,7 +55,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_LIBWIRE at CMakeLists.txt:18 (file)
@@ -67,7 +67,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_LIBWIRE at CMakeLists.txt:18 (file)
@@ -79,7 +79,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_H at CMakeLists.txt:16 (file)
@@ -90,7 +90,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_CPPC at CMakeLists.txt:17 (file)
@@ -125,7 +125,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_CPPC at CMakeLists.txt:17 (file)
@@ -158,7 +158,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_CPPC at CMakeLists.txt:17 (file)
@@ -167,7 +167,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_CPPC at CMakeLists.txt:17 (file)
@@ -179,5 +179,5 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles/cmake.verify_globs")
 endif()

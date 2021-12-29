@@ -3,13 +3,13 @@
 
 # compile C with /usr/bin/arm-none-eabi-gcc
 # compile CXX with /usr/bin/arm-none-eabi-g++
-C_FLAGS = -g   -Wall -g -O2 -mcpu=cortex-m7 -mfloat-abi=hard -mfpu=fpv5-d16 -mthumb -MMD -ffunction-sections -fdata-sections -std=gnu++14 -felide-constructors -fno-exceptions -fpermissive -fno-rtti -Wno-error=narrowing
+C_FLAGS =   -Wall -g -O2 -mcpu=cortex-m7 -mfloat-abi=hard -mfpu=fpv5-d16 -mthumb -MMD -ffunction-sections -fdata-sections -std=gnu++14 -felide-constructors -fno-exceptions -fpermissive -fno-rtti -Wno-error=narrowing
 
 C_DEFINES = -DARDUINO=10810 -DARDUINO_TEENSY40 -DF_CPU=600000000 -DLAYOUT_US_ENGLISH -DTEENSYDUINO=149 -DUSB_SERIAL -DUSING_MAKEFILE -D__IMXRT1062__
 
 C_INCLUDES = -I/home/tor/VSCodeProjects/Embedded/Mini_segway/src -I/home/tor/VSCodeProjects/Embedded/Mini_segway/core -I/usr/local/include/eigen-3.4.0 -I/home/tor/VSCodeProjects/Embedded/Mini_segway/lib 
 
-CXX_FLAGS = -g   -Wall -g -O2 -mcpu=cortex-m7 -mfloat-abi=hard -mfpu=fpv5-d16 -mthumb -MMD -ffunction-sections -fdata-sections -std=gnu++14 -felide-constructors -fno-exceptions -fpermissive -fno-rtti -Wno-error=narrowing
+CXX_FLAGS =   -Wall -g -O2 -mcpu=cortex-m7 -mfloat-abi=hard -mfpu=fpv5-d16 -mthumb -MMD -ffunction-sections -fdata-sections -std=gnu++14 -felide-constructors -fno-exceptions -fpermissive -fno-rtti -Wno-error=narrowing
 
 CXX_DEFINES = -DARDUINO=10810 -DARDUINO_TEENSY40 -DF_CPU=600000000 -DLAYOUT_US_ENGLISH -DTEENSYDUINO=149 -DUSB_SERIAL -DUSING_MAKEFILE -D__IMXRT1062__
 

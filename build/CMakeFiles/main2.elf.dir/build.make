@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/tor/VSCodeProjects/Embedded/Mini_segway
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tor/VSCodeProjects/Embedded/Mini_segway/build
+CMAKE_BINARY_DIR = /home/tor/VSCodeProjects/Embedded/Mini_segway/build2
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main2.elf.dir/depend.make
@@ -59,7 +59,7 @@ include CMakeFiles/main2.elf.dir/flags.make
 
 CMakeFiles/main2.elf.dir/core/AudioStream.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/AudioStream.cpp.o: ../core/AudioStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main2.elf.dir/core/AudioStream.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main2.elf.dir/core/AudioStream.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/AudioStream.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/AudioStream.cpp
 
 CMakeFiles/main2.elf.dir/core/AudioStream.cpp.i: cmake_force
@@ -72,7 +72,7 @@ CMakeFiles/main2.elf.dir/core/AudioStream.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/DMAChannel.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/DMAChannel.cpp.o: ../core/DMAChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main2.elf.dir/core/DMAChannel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main2.elf.dir/core/DMAChannel.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/DMAChannel.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/DMAChannel.cpp
 
 CMakeFiles/main2.elf.dir/core/DMAChannel.cpp.i: cmake_force
@@ -85,7 +85,7 @@ CMakeFiles/main2.elf.dir/core/DMAChannel.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/EventResponder.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/EventResponder.cpp.o: ../core/EventResponder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main2.elf.dir/core/EventResponder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main2.elf.dir/core/EventResponder.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/EventResponder.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/EventResponder.cpp
 
 CMakeFiles/main2.elf.dir/core/EventResponder.cpp.i: cmake_force
@@ -98,7 +98,7 @@ CMakeFiles/main2.elf.dir/core/EventResponder.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/HardwareSerial.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/HardwareSerial.cpp.o: ../core/HardwareSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main2.elf.dir/core/HardwareSerial.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main2.elf.dir/core/HardwareSerial.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/HardwareSerial.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/HardwareSerial.cpp
 
 CMakeFiles/main2.elf.dir/core/HardwareSerial.cpp.i: cmake_force
@@ -111,7 +111,7 @@ CMakeFiles/main2.elf.dir/core/HardwareSerial.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/HardwareSerial1.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/HardwareSerial1.cpp.o: ../core/HardwareSerial1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main2.elf.dir/core/HardwareSerial1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main2.elf.dir/core/HardwareSerial1.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/HardwareSerial1.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/HardwareSerial1.cpp
 
 CMakeFiles/main2.elf.dir/core/HardwareSerial1.cpp.i: cmake_force
@@ -124,7 +124,7 @@ CMakeFiles/main2.elf.dir/core/HardwareSerial1.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/HardwareSerial2.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/HardwareSerial2.cpp.o: ../core/HardwareSerial2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main2.elf.dir/core/HardwareSerial2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main2.elf.dir/core/HardwareSerial2.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/HardwareSerial2.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/HardwareSerial2.cpp
 
 CMakeFiles/main2.elf.dir/core/HardwareSerial2.cpp.i: cmake_force
@@ -137,7 +137,7 @@ CMakeFiles/main2.elf.dir/core/HardwareSerial2.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/HardwareSerial3.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/HardwareSerial3.cpp.o: ../core/HardwareSerial3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main2.elf.dir/core/HardwareSerial3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main2.elf.dir/core/HardwareSerial3.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/HardwareSerial3.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/HardwareSerial3.cpp
 
 CMakeFiles/main2.elf.dir/core/HardwareSerial3.cpp.i: cmake_force
@@ -150,7 +150,7 @@ CMakeFiles/main2.elf.dir/core/HardwareSerial3.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/HardwareSerial4.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/HardwareSerial4.cpp.o: ../core/HardwareSerial4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main2.elf.dir/core/HardwareSerial4.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main2.elf.dir/core/HardwareSerial4.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/HardwareSerial4.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/HardwareSerial4.cpp
 
 CMakeFiles/main2.elf.dir/core/HardwareSerial4.cpp.i: cmake_force
@@ -163,7 +163,7 @@ CMakeFiles/main2.elf.dir/core/HardwareSerial4.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/HardwareSerial5.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/HardwareSerial5.cpp.o: ../core/HardwareSerial5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main2.elf.dir/core/HardwareSerial5.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main2.elf.dir/core/HardwareSerial5.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/HardwareSerial5.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/HardwareSerial5.cpp
 
 CMakeFiles/main2.elf.dir/core/HardwareSerial5.cpp.i: cmake_force
@@ -176,7 +176,7 @@ CMakeFiles/main2.elf.dir/core/HardwareSerial5.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/HardwareSerial6.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/HardwareSerial6.cpp.o: ../core/HardwareSerial6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main2.elf.dir/core/HardwareSerial6.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main2.elf.dir/core/HardwareSerial6.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/HardwareSerial6.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/HardwareSerial6.cpp
 
 CMakeFiles/main2.elf.dir/core/HardwareSerial6.cpp.i: cmake_force
@@ -189,7 +189,7 @@ CMakeFiles/main2.elf.dir/core/HardwareSerial6.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/HardwareSerial7.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/HardwareSerial7.cpp.o: ../core/HardwareSerial7.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main2.elf.dir/core/HardwareSerial7.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main2.elf.dir/core/HardwareSerial7.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/HardwareSerial7.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/HardwareSerial7.cpp
 
 CMakeFiles/main2.elf.dir/core/HardwareSerial7.cpp.i: cmake_force
@@ -202,7 +202,7 @@ CMakeFiles/main2.elf.dir/core/HardwareSerial7.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/HardwareSerial8.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/HardwareSerial8.cpp.o: ../core/HardwareSerial8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main2.elf.dir/core/HardwareSerial8.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main2.elf.dir/core/HardwareSerial8.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/HardwareSerial8.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/HardwareSerial8.cpp
 
 CMakeFiles/main2.elf.dir/core/HardwareSerial8.cpp.i: cmake_force
@@ -215,7 +215,7 @@ CMakeFiles/main2.elf.dir/core/HardwareSerial8.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/IPAddress.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/IPAddress.cpp.o: ../core/IPAddress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main2.elf.dir/core/IPAddress.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main2.elf.dir/core/IPAddress.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/IPAddress.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/IPAddress.cpp
 
 CMakeFiles/main2.elf.dir/core/IPAddress.cpp.i: cmake_force
@@ -228,7 +228,7 @@ CMakeFiles/main2.elf.dir/core/IPAddress.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/IntervalTimer.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/IntervalTimer.cpp.o: ../core/IntervalTimer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main2.elf.dir/core/IntervalTimer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main2.elf.dir/core/IntervalTimer.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/IntervalTimer.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/IntervalTimer.cpp
 
 CMakeFiles/main2.elf.dir/core/IntervalTimer.cpp.i: cmake_force
@@ -241,7 +241,7 @@ CMakeFiles/main2.elf.dir/core/IntervalTimer.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/Print.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/Print.cpp.o: ../core/Print.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main2.elf.dir/core/Print.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main2.elf.dir/core/Print.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/Print.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/Print.cpp
 
 CMakeFiles/main2.elf.dir/core/Print.cpp.i: cmake_force
@@ -254,7 +254,7 @@ CMakeFiles/main2.elf.dir/core/Print.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/Stream.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/Stream.cpp.o: ../core/Stream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main2.elf.dir/core/Stream.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main2.elf.dir/core/Stream.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/Stream.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/Stream.cpp
 
 CMakeFiles/main2.elf.dir/core/Stream.cpp.i: cmake_force
@@ -267,7 +267,7 @@ CMakeFiles/main2.elf.dir/core/Stream.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/Tone.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/Tone.cpp.o: ../core/Tone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main2.elf.dir/core/Tone.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main2.elf.dir/core/Tone.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/Tone.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/Tone.cpp
 
 CMakeFiles/main2.elf.dir/core/Tone.cpp.i: cmake_force
@@ -280,7 +280,7 @@ CMakeFiles/main2.elf.dir/core/Tone.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/WMath.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/WMath.cpp.o: ../core/WMath.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/main2.elf.dir/core/WMath.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/main2.elf.dir/core/WMath.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/WMath.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/WMath.cpp
 
 CMakeFiles/main2.elf.dir/core/WMath.cpp.i: cmake_force
@@ -293,7 +293,7 @@ CMakeFiles/main2.elf.dir/core/WMath.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/WString.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/WString.cpp.o: ../core/WString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/main2.elf.dir/core/WString.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/main2.elf.dir/core/WString.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/WString.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/WString.cpp
 
 CMakeFiles/main2.elf.dir/core/WString.cpp.i: cmake_force
@@ -306,7 +306,7 @@ CMakeFiles/main2.elf.dir/core/WString.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/analog.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/analog.c.o: ../core/analog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/main2.elf.dir/core/analog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/main2.elf.dir/core/analog.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/analog.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/analog.c
 
 CMakeFiles/main2.elf.dir/core/analog.c.i: cmake_force
@@ -319,7 +319,7 @@ CMakeFiles/main2.elf.dir/core/analog.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/bootdata.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/bootdata.c.o: ../core/bootdata.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/main2.elf.dir/core/bootdata.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/main2.elf.dir/core/bootdata.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/bootdata.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/bootdata.c
 
 CMakeFiles/main2.elf.dir/core/bootdata.c.i: cmake_force
@@ -332,7 +332,7 @@ CMakeFiles/main2.elf.dir/core/bootdata.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/clockspeed.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/clockspeed.c.o: ../core/clockspeed.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/main2.elf.dir/core/clockspeed.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/main2.elf.dir/core/clockspeed.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/clockspeed.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/clockspeed.c
 
 CMakeFiles/main2.elf.dir/core/clockspeed.c.i: cmake_force
@@ -345,7 +345,7 @@ CMakeFiles/main2.elf.dir/core/clockspeed.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/debugprintf.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/debugprintf.c.o: ../core/debugprintf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/main2.elf.dir/core/debugprintf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/main2.elf.dir/core/debugprintf.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/debugprintf.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/debugprintf.c
 
 CMakeFiles/main2.elf.dir/core/debugprintf.c.i: cmake_force
@@ -358,7 +358,7 @@ CMakeFiles/main2.elf.dir/core/debugprintf.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/delay.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/delay.c.o: ../core/delay.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/main2.elf.dir/core/delay.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/main2.elf.dir/core/delay.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/delay.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/delay.c
 
 CMakeFiles/main2.elf.dir/core/delay.c.i: cmake_force
@@ -371,7 +371,7 @@ CMakeFiles/main2.elf.dir/core/delay.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/digital.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/digital.c.o: ../core/digital.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/main2.elf.dir/core/digital.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/main2.elf.dir/core/digital.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/digital.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/digital.c
 
 CMakeFiles/main2.elf.dir/core/digital.c.i: cmake_force
@@ -384,7 +384,7 @@ CMakeFiles/main2.elf.dir/core/digital.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/eeprom.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/eeprom.c.o: ../core/eeprom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/main2.elf.dir/core/eeprom.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/main2.elf.dir/core/eeprom.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/eeprom.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/eeprom.c
 
 CMakeFiles/main2.elf.dir/core/eeprom.c.i: cmake_force
@@ -397,7 +397,7 @@ CMakeFiles/main2.elf.dir/core/eeprom.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/interrupt.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/interrupt.c.o: ../core/interrupt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/main2.elf.dir/core/interrupt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/main2.elf.dir/core/interrupt.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/interrupt.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/interrupt.c
 
 CMakeFiles/main2.elf.dir/core/interrupt.c.i: cmake_force
@@ -410,7 +410,7 @@ CMakeFiles/main2.elf.dir/core/interrupt.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/keylayouts.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/keylayouts.c.o: ../core/keylayouts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/main2.elf.dir/core/keylayouts.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/main2.elf.dir/core/keylayouts.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/keylayouts.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/keylayouts.c
 
 CMakeFiles/main2.elf.dir/core/keylayouts.c.i: cmake_force
@@ -423,7 +423,7 @@ CMakeFiles/main2.elf.dir/core/keylayouts.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/new.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/new.cpp.o: ../core/new.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/main2.elf.dir/core/new.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/main2.elf.dir/core/new.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/new.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/new.cpp
 
 CMakeFiles/main2.elf.dir/core/new.cpp.i: cmake_force
@@ -436,7 +436,7 @@ CMakeFiles/main2.elf.dir/core/new.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/nonstd.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/nonstd.c.o: ../core/nonstd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/main2.elf.dir/core/nonstd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/main2.elf.dir/core/nonstd.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/nonstd.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/nonstd.c
 
 CMakeFiles/main2.elf.dir/core/nonstd.c.i: cmake_force
@@ -449,7 +449,7 @@ CMakeFiles/main2.elf.dir/core/nonstd.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/pwm.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/pwm.c.o: ../core/pwm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/main2.elf.dir/core/pwm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/main2.elf.dir/core/pwm.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/pwm.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/pwm.c
 
 CMakeFiles/main2.elf.dir/core/pwm.c.i: cmake_force
@@ -462,7 +462,7 @@ CMakeFiles/main2.elf.dir/core/pwm.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/rtc.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/rtc.c.o: ../core/rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/main2.elf.dir/core/rtc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/main2.elf.dir/core/rtc.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/rtc.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/rtc.c
 
 CMakeFiles/main2.elf.dir/core/rtc.c.i: cmake_force
@@ -475,7 +475,7 @@ CMakeFiles/main2.elf.dir/core/rtc.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/startup.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/startup.c.o: ../core/startup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/main2.elf.dir/core/startup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/main2.elf.dir/core/startup.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/startup.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/startup.c
 
 CMakeFiles/main2.elf.dir/core/startup.c.i: cmake_force
@@ -488,7 +488,7 @@ CMakeFiles/main2.elf.dir/core/startup.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/tempmon.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/tempmon.c.o: ../core/tempmon.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/main2.elf.dir/core/tempmon.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/main2.elf.dir/core/tempmon.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/tempmon.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/tempmon.c
 
 CMakeFiles/main2.elf.dir/core/tempmon.c.i: cmake_force
@@ -501,7 +501,7 @@ CMakeFiles/main2.elf.dir/core/tempmon.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/usb.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/usb.c.o: ../core/usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/main2.elf.dir/core/usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/main2.elf.dir/core/usb.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/usb.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb.c
 
 CMakeFiles/main2.elf.dir/core/usb.c.i: cmake_force
@@ -514,7 +514,7 @@ CMakeFiles/main2.elf.dir/core/usb.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/usb_audio.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/usb_audio.cpp.o: ../core/usb_audio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/main2.elf.dir/core/usb_audio.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/main2.elf.dir/core/usb_audio.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/usb_audio.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_audio.cpp
 
 CMakeFiles/main2.elf.dir/core/usb_audio.cpp.i: cmake_force
@@ -527,7 +527,7 @@ CMakeFiles/main2.elf.dir/core/usb_audio.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/usb_desc.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/usb_desc.c.o: ../core/usb_desc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/main2.elf.dir/core/usb_desc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/main2.elf.dir/core/usb_desc.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/usb_desc.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_desc.c
 
 CMakeFiles/main2.elf.dir/core/usb_desc.c.i: cmake_force
@@ -540,7 +540,7 @@ CMakeFiles/main2.elf.dir/core/usb_desc.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/usb_flightsim.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/usb_flightsim.cpp.o: ../core/usb_flightsim.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/main2.elf.dir/core/usb_flightsim.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/main2.elf.dir/core/usb_flightsim.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/usb_flightsim.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_flightsim.cpp
 
 CMakeFiles/main2.elf.dir/core/usb_flightsim.cpp.i: cmake_force
@@ -553,7 +553,7 @@ CMakeFiles/main2.elf.dir/core/usb_flightsim.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/usb_inst.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/usb_inst.cpp.o: ../core/usb_inst.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/main2.elf.dir/core/usb_inst.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/main2.elf.dir/core/usb_inst.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/usb_inst.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_inst.cpp
 
 CMakeFiles/main2.elf.dir/core/usb_inst.cpp.i: cmake_force
@@ -566,7 +566,7 @@ CMakeFiles/main2.elf.dir/core/usb_inst.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/usb_joystick.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/usb_joystick.c.o: ../core/usb_joystick.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/main2.elf.dir/core/usb_joystick.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/main2.elf.dir/core/usb_joystick.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/usb_joystick.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_joystick.c
 
 CMakeFiles/main2.elf.dir/core/usb_joystick.c.i: cmake_force
@@ -579,7 +579,7 @@ CMakeFiles/main2.elf.dir/core/usb_joystick.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/usb_keyboard.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/usb_keyboard.c.o: ../core/usb_keyboard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/main2.elf.dir/core/usb_keyboard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/main2.elf.dir/core/usb_keyboard.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/usb_keyboard.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_keyboard.c
 
 CMakeFiles/main2.elf.dir/core/usb_keyboard.c.i: cmake_force
@@ -592,7 +592,7 @@ CMakeFiles/main2.elf.dir/core/usb_keyboard.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/usb_midi.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/usb_midi.c.o: ../core/usb_midi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/main2.elf.dir/core/usb_midi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/main2.elf.dir/core/usb_midi.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/usb_midi.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_midi.c
 
 CMakeFiles/main2.elf.dir/core/usb_midi.c.i: cmake_force
@@ -605,7 +605,7 @@ CMakeFiles/main2.elf.dir/core/usb_midi.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/usb_mouse.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/usb_mouse.c.o: ../core/usb_mouse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/main2.elf.dir/core/usb_mouse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/main2.elf.dir/core/usb_mouse.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/usb_mouse.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_mouse.c
 
 CMakeFiles/main2.elf.dir/core/usb_mouse.c.i: cmake_force
@@ -618,7 +618,7 @@ CMakeFiles/main2.elf.dir/core/usb_mouse.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/usb_rawhid.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/usb_rawhid.c.o: ../core/usb_rawhid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/main2.elf.dir/core/usb_rawhid.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/main2.elf.dir/core/usb_rawhid.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/usb_rawhid.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_rawhid.c
 
 CMakeFiles/main2.elf.dir/core/usb_rawhid.c.i: cmake_force
@@ -631,7 +631,7 @@ CMakeFiles/main2.elf.dir/core/usb_rawhid.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/usb_seremu.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/usb_seremu.c.o: ../core/usb_seremu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/main2.elf.dir/core/usb_seremu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/main2.elf.dir/core/usb_seremu.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/usb_seremu.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_seremu.c
 
 CMakeFiles/main2.elf.dir/core/usb_seremu.c.i: cmake_force
@@ -644,7 +644,7 @@ CMakeFiles/main2.elf.dir/core/usb_seremu.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/usb_serial.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/usb_serial.c.o: ../core/usb_serial.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/main2.elf.dir/core/usb_serial.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/main2.elf.dir/core/usb_serial.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/usb_serial.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_serial.c
 
 CMakeFiles/main2.elf.dir/core/usb_serial.c.i: cmake_force
@@ -657,7 +657,7 @@ CMakeFiles/main2.elf.dir/core/usb_serial.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/usb_serial2.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/usb_serial2.c.o: ../core/usb_serial2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/main2.elf.dir/core/usb_serial2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/main2.elf.dir/core/usb_serial2.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/usb_serial2.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_serial2.c
 
 CMakeFiles/main2.elf.dir/core/usb_serial2.c.i: cmake_force
@@ -670,7 +670,7 @@ CMakeFiles/main2.elf.dir/core/usb_serial2.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/usb_serial3.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/usb_serial3.c.o: ../core/usb_serial3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/main2.elf.dir/core/usb_serial3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/main2.elf.dir/core/usb_serial3.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/usb_serial3.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_serial3.c
 
 CMakeFiles/main2.elf.dir/core/usb_serial3.c.i: cmake_force
@@ -683,7 +683,7 @@ CMakeFiles/main2.elf.dir/core/usb_serial3.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/usb_touch.c.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/usb_touch.c.o: ../core/usb_touch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/main2.elf.dir/core/usb_touch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/main2.elf.dir/core/usb_touch.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2.elf.dir/core/usb_touch.c.o   -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_touch.c
 
 CMakeFiles/main2.elf.dir/core/usb_touch.c.i: cmake_force
@@ -696,7 +696,7 @@ CMakeFiles/main2.elf.dir/core/usb_touch.c.s: cmake_force
 
 CMakeFiles/main2.elf.dir/core/yield.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/core/yield.cpp.o: ../core/yield.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/main2.elf.dir/core/yield.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/main2.elf.dir/core/yield.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/core/yield.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/core/yield.cpp
 
 CMakeFiles/main2.elf.dir/core/yield.cpp.i: cmake_force
@@ -709,7 +709,7 @@ CMakeFiles/main2.elf.dir/core/yield.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/src/controllers.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/src/controllers.cpp.o: ../src/controllers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/main2.elf.dir/src/controllers.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/main2.elf.dir/src/controllers.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/src/controllers.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/src/controllers.cpp
 
 CMakeFiles/main2.elf.dir/src/controllers.cpp.i: cmake_force
@@ -722,7 +722,7 @@ CMakeFiles/main2.elf.dir/src/controllers.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/src/io.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/src/io.cpp.o: ../src/io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/main2.elf.dir/src/io.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/main2.elf.dir/src/io.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/src/io.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/src/io.cpp
 
 CMakeFiles/main2.elf.dir/src/io.cpp.i: cmake_force
@@ -735,7 +735,7 @@ CMakeFiles/main2.elf.dir/src/io.cpp.s: cmake_force
 
 CMakeFiles/main2.elf.dir/src/main.cpp.o: CMakeFiles/main2.elf.dir/flags.make
 CMakeFiles/main2.elf.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/main2.elf.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/main2.elf.dir/src/main.cpp.o"
 	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.elf.dir/src/main.cpp.o -c /home/tor/VSCodeProjects/Embedded/Mini_segway/src/main.cpp
 
 CMakeFiles/main2.elf.dir/src/main.cpp.i: cmake_force
@@ -861,7 +861,7 @@ main2.elf: CMakeFiles/main2.elf.dir/src/main.cpp.o
 main2.elf: CMakeFiles/main2.elf.dir/build.make
 main2.elf: libWire.a
 main2.elf: CMakeFiles/main2.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Linking CXX executable main2.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Linking CXX executable main2.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main2.elf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -874,6 +874,6 @@ CMakeFiles/main2.elf.dir/clean:
 .PHONY : CMakeFiles/main2.elf.dir/clean
 
 CMakeFiles/main2.elf.dir/depend:
-	cd /home/tor/VSCodeProjects/Embedded/Mini_segway/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tor/VSCodeProjects/Embedded/Mini_segway /home/tor/VSCodeProjects/Embedded/Mini_segway /home/tor/VSCodeProjects/Embedded/Mini_segway/build /home/tor/VSCodeProjects/Embedded/Mini_segway/build /home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles/main2.elf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tor/VSCodeProjects/Embedded/Mini_segway/build2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tor/VSCodeProjects/Embedded/Mini_segway /home/tor/VSCodeProjects/Embedded/Mini_segway /home/tor/VSCodeProjects/Embedded/Mini_segway/build2 /home/tor/VSCodeProjects/Embedded/Mini_segway/build2 /home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles/main2.elf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main2.elf.dir/depend
 

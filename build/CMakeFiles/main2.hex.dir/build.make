@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/tor/VSCodeProjects/Embedded/Mini_segway
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tor/VSCodeProjects/Embedded/Mini_segway/build
+CMAKE_BINARY_DIR = /home/tor/VSCodeProjects/Embedded/Mini_segway/build2
 
 # Utility rule file for main2.hex.
 
@@ -71,6 +71,6 @@ CMakeFiles/main2.hex.dir/clean:
 .PHONY : CMakeFiles/main2.hex.dir/clean
 
 CMakeFiles/main2.hex.dir/depend:
-	cd /home/tor/VSCodeProjects/Embedded/Mini_segway/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tor/VSCodeProjects/Embedded/Mini_segway /home/tor/VSCodeProjects/Embedded/Mini_segway /home/tor/VSCodeProjects/Embedded/Mini_segway/build /home/tor/VSCodeProjects/Embedded/Mini_segway/build /home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles/main2.hex.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tor/VSCodeProjects/Embedded/Mini_segway/build2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tor/VSCodeProjects/Embedded/Mini_segway /home/tor/VSCodeProjects/Embedded/Mini_segway /home/tor/VSCodeProjects/Embedded/Mini_segway/build2 /home/tor/VSCodeProjects/Embedded/Mini_segway/build2 /home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles/main2.hex.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main2.hex.dir/depend
 
