@@ -1,0 +1,36 @@
+CMakeFiles/main2.elf.dir/core/HardwareSerial8.cpp.o: \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/HardwareSerial8.cpp \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/Arduino.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/WProgram.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/avr/pgmspace.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/avr/interrupt.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/avr_functions.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/wiring.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/binary.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/core_id.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/core_pins.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/imxrt.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/pins_arduino.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/HardwareSerial.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/Stream.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/Print.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/WString.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/avr/pgmspace.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/Printable.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/avr_emulation.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_serial.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_desc.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_seremu.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_keyboard.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/keylayouts.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_mouse.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_joystick.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_midi.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_rawhid.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_flightsim.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_audio.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/usb_touch.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/WCharacter.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/elapsedMillis.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/Arduino.h \
+ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/IntervalTimer.h

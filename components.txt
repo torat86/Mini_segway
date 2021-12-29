@@ -1,0 +1,5 @@
+L298N Motor driver https://www.digitalimpuls.no/diverse/144580/dual-h-bridge-motor-driver-modul-l298n-for-dc-and-stepper-motors-2-port
+MPU 6050
+Teensy 4
+HC-05 Bluetooth module www.kjell.com
+12 battery pack https://www.digitalimpuls.no/rs-components-ltd/144584/12v-oppladbart-li-ion-batteri-3000mah-inkl-1a-lader-og-plugger
