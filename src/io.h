@@ -8,6 +8,7 @@
 #ifndef IO_H_
 #define IO_H_
 
+#include <Arduino.h>
 #include <Wire/Wire.h>
 
 extern const int mpu_addr; //Change to static in io.cpp later?

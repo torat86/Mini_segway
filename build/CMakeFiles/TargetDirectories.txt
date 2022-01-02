@@ -1,5 +1,5 @@
-/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles/edit_cache.dir
-/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles/rebuild_cache.dir
-/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles/Wire.dir
-/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles/main2.hex.dir
-/home/tor/VSCodeProjects/Embedded/Mini_segway/build2/CMakeFiles/main2.elf.dir
+/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles/main2.elf.dir
+/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles/Wire.dir
+/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles/main2.hex.dir
+/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles/edit_cache.dir
+/home/tor/VSCodeProjects/Embedded/Mini_segway/build/CMakeFiles/rebuild_cache.dir

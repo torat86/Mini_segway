@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Mini_segway",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Wire::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Wire-9d8cffd9435ce2a77b9f.json",
+					"name" : "Wire",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main2.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main2.elf-c22bf3a2bd9b72787071.json",
+					"name" : "main2.elf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main2.hex::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main2.hex-7fe7b2163d440edb3e4f.json",
+					"name" : "main2.hex",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tor/VSCodeProjects/Embedded/Mini_segway/build",
+		"source" : "/home/tor/VSCodeProjects/Embedded/Mini_segway"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

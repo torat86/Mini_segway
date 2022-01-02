@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Wire.dir/lib/Wire/Wire.cpp.o"
-  "CMakeFiles/Wire.dir/lib/Wire/WireIMXRT.cpp.o"
-  "CMakeFiles/Wire.dir/lib/Wire/WireKinetis.cpp.o"
+  "CMakeFiles/Wire.dir/lib/Wire/Wire.cpp.obj"
+  "CMakeFiles/Wire.dir/lib/Wire/Wire.cpp.obj.d"
+  "CMakeFiles/Wire.dir/lib/Wire/WireIMXRT.cpp.obj"
+  "CMakeFiles/Wire.dir/lib/Wire/WireIMXRT.cpp.obj.d"
+  "CMakeFiles/Wire.dir/lib/Wire/WireKinetis.cpp.obj"
+  "CMakeFiles/Wire.dir/lib/Wire/WireKinetis.cpp.obj.d"
   "libWire.a"
   "libWire.pdb"
 )

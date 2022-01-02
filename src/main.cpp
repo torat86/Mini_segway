@@ -28,15 +28,12 @@
  * SOFTWARE.
  */
 //Chaos ensues if header including Arduino.h is included here before header that includes Eigen
-//#include "controllers.h"
-//#include "io.h"
-#include <Arduino.h>
+#include "controllers.h"
+#include "io.h"
 
 
-extern "C" int main(void)
+int main(void)
 {
-#ifdef USING_MAKEFILE
-
 	pinMode(13, OUTPUT);
 	//mpu_init();
 	//Eigen::Vector2d result = Eigen::Vector2d::Zero();
@@ -69,15 +66,6 @@ extern "C" int main(void)
 		//LPF reg: 0x1A
 	}
 
-
-#else
-	// Arduino's main() function just calls setup() and loop()....
-	setup();
-	while (1) {
-		loop();
-		yield();
-	}
-#endif
 return 0;
 }
 

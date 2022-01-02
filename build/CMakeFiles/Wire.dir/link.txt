@@ -1,2 +1,2 @@
-/usr/bin/ar qc libWire.a  CMakeFiles/Wire.dir/lib/Wire/Wire.cpp.o CMakeFiles/Wire.dir/lib/Wire/WireIMXRT.cpp.o CMakeFiles/Wire.dir/lib/Wire/WireKinetis.cpp.o
-/usr/bin/ranlib libWire.a
+/usr/local/bin/arm-none-eabi-ar qc libWire.a CMakeFiles/Wire.dir/lib/Wire/Wire.cpp.obj CMakeFiles/Wire.dir/lib/Wire/WireIMXRT.cpp.obj CMakeFiles/Wire.dir/lib/Wire/WireKinetis.cpp.obj
+/usr/local/bin/arm-none-eabi-ranlib libWire.a

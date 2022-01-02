@@ -1,17 +1,8 @@
 cmake_minimum_required(VERSION 3.0.0)
+
+set(CMAKE_TOOLCHAIN_FILE "/home/tor/VSCodeProjects/cmake_toolchains/teensy4_tools.cmake" CACHE PATH "Toolchain file")
+
 project(Mini_segway VERSION 0.1.0)
-
-set(CMAKE_SYSTEM_NAME Generic)
-set(CMAKE_SYSTEM_PROCESSOR arm)
-set(CMAKE_CROSSCOMPILING 1)
-set(CMAKE_SHARED_LIBRARY_LINK_C_FLAGS "")
-set(CMAKE_SHARED_LIBRARY_LINK_CXX_FLAGS "")
-
-set(COMPILERPATH /usr/bin)
-
-set(CMAKE_C_COMPILER ${COMPILERPATH}/arm-none-eabi-gcc)
-set(CMAKE_CXX_COMPILER ${COMPILERPATH}/arm-none-eabi-g++)
-set(CMAKE_C_OBJCOPY ${COMPILERPATH}/arm-none-eabi-objcopy)
 
 file(GLOB SRC_H CONFIGURE_DEPENDS "src/*.h" "core/*.h")
 file(GLOB_RECURSE SRC_CPPC CONFIGURE_DEPENDS "src/*.c" "src/*.cpp" "core/*.c" "core/*.cpp")
@@ -22,8 +13,6 @@ set(SRC ${SRC_H} ${SRC_CPPC})
 set(MCU IMXRT1062)
 set(MCU_LD ${CMAKE_SOURCE_DIR}/core/imxrt1062.ld)
 set(MCU_DEF ARDUINO_TEENSY40)
-
-set(SPECS --specs=nano.specs)
 
 set(CPUOPTIONS -mcpu=cortex-m7 -mfloat-abi=hard -mfpu=fpv5-d16 -mthumb)
 
@@ -37,7 +26,7 @@ target_compile_definitions(main2.elf PUBLIC -DF_CPU=600000000 -DUSB_SERIAL -DLAY
 target_compile_options(main2.elf PUBLIC -Wall -g -O2 ${CPUOPTIONS} -MMD -ffunction-sections -fdata-sections
                       -std=gnu++14 -felide-constructors -fno-exceptions -fpermissive -fno-rtti -Wno-error=narrowing)
 
-target_link_options(main2.elf PUBLIC -Os -Wl,--gc-sections,--relax ${SPECS} ${CPUOPTIONS} -T${MCU_LD})
+target_link_options(main2.elf PUBLIC -Os -Wl,--gc-sections,--relax -specs=nano.specs ${CPUOPTIONS} -T${MCU_LD})
 
 # Wire LIB FLAGS
 target_compile_definitions(Wire PUBLIC -DF_CPU=600000000 -DUSB_SERIAL -DLAYOUT_US_ENGLISH
@@ -46,16 +35,17 @@ target_compile_definitions(Wire PUBLIC -DF_CPU=600000000 -DUSB_SERIAL -DLAYOUT_U
 target_compile_options(Wire PUBLIC -Wall -g -O2 ${CPUOPTIONS} -MMD -ffunction-sections -fdata-sections
                       -std=gnu++14 -felide-constructors -fno-exceptions -fpermissive -fno-rtti -Wno-error=narrowing)
 
-target_link_options(Wire PUBLIC -Os -Wl,--gc-sections,--relax ${SPECS} ${CPUOPTIONS} -T${MCU_LD})
+target_link_options(Wire PUBLIC -Os -Wl,--gc-sections,--relax -specs=nano.specs ${CPUOPTIONS} -T${MCU_LD})
 
 # Include and lib dirs
-target_link_directories(main2.elf BEFORE PUBLIC /usr/local/Arduino/hardware/tools/arm/arm-none-eabi/lib/ lib/Wire/)
+target_link_directories(main2.elf BEFORE PUBLIC /home/tor/Downloads/Arduino/hardware/tools/arm/arm-none-eabi/lib lib/Wire/)
 
-target_include_directories(main2.elf PUBLIC /home/tor/VSCodeProjects/Embedded/Mini_segway/src/ 
+target_include_directories(main2.elf PUBLIC /usr/local/include/ /home/tor/VSCodeProjects/Embedded/Mini_segway/src/ 
                            /home/tor/VSCodeProjects/Embedded/Mini_segway/core/ 
-                           /usr/local/include/eigen-3.4.0
                            /home/tor/VSCodeProjects/Embedded/Mini_segway/lib)
-target_include_directories(Wire PUBLIC /home/tor/VSCodeProjects/Embedded/Mini_segway/src/ /home/tor/VSCodeProjects/Embedded/Mini_segway/core/)
+
+target_include_directories(Wire PUBLIC /home/tor/VSCodeProjects/Embedded/Mini_segway/src
+                           /home/tor/VSCodeProjects/Embedded/Mini_segway/core)
 
 target_link_libraries(main2.elf m stdc++ Wire arm_cortexM7lfsp_math)
 
